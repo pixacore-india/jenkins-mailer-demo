@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: pixacore-india/cypress-emailer-demo
+  repo: pixacore-india/jenkins-mailer-demo
   branch: master
 
 media_folder: "images"
