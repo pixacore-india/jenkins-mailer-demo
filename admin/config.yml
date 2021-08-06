@@ -1,0 +1,33 @@
+backend:
+  name: github
+  repo: pixacore-india/cypress-emailer-demo
+  branch: master
+
+media_folder: "images"
+
+
+collections:
+  - label: "Global"
+    name: "global"
+    files:
+      - label: "Header"
+        name: "header"
+        file: "_data/header.yml"
+        fields:
+          - label: "header block"
+            name: "header-block"
+            widget: "object"
+            fields: 
+                - {label: logo link, name:  logo-link, widget: string}
+                - {label: logo image, name: logo-image, widget: image}
+      - label: "Content"
+        name: "content"
+        file: "_data/content.yml"
+        fields:
+          - label: "content block"
+            name: "content-block"
+            widget: "object"
+            fields: 
+                - {label: title, name: title, widget: string}
+                - {label: description, name: description, widget: string}
+         
